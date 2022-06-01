@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Автобусный тур в Грузию</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <svg
+          class="ham hamRotate ham4"
+          id="navToggle"
+          viewBox="0 0 110 100"
+          width="70"
+        >
+          <path
+            class="line top"
+            d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20"
+          />
+          <path class="line middle" d="m 70,50 h -40" />
+          <path
+            class="line bottom"
+            d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20"
+          />
+        </svg>
+        <div class="header__over">
+          <div class="header_logo">
+            <a href="/" class="header_logo-link">
+              <img
+                src="img/bus-logo-abstract_7315-17.png"
+                alt="Автобусный тур в Грузию"
+                class="header_logo-pic"
+              />
+            </a>
+          </div>
+          <div class="header_wrapper">
+            <nav class="header_nav">
+              <ul class="header_list">
+                <li class="header_item">
+                  <a href="#yakor1" class="header_link">Цены</a>
+                </li>
+                <li class="header_item">
+                  <a href="#yakor2" class="header_link">Контакты</a>
+                </li>
+                <li class="header_item">
+                  <a href="#yakor3" class="header_link">О нас</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="intro">
+        <div class="wrapper">
+          <div class="">
+            <h1 class="intro_title">Автобусный тур в Грузию</h1>
+            <img
+              src="img/big508image.jpg"
+              alt="Автобусный тур в Грузию"
+              class="pic1"
+            />
+            <p class="intro-subtitle">14 - 17 апреля</p>
+            <form action="" class="stay">
+              <bttn class="open-button" onclick="openForm()">Оставить заявку</bttn>
+            </form>
+            <div class="places">
+              <div class="wrapper_full">
+                <div class="places_place">
+                  <div class="place-pic">
+                    <img src="img/place1.jpg" alt="" class="place-thumb" />
+                  </div>
+                  <div class="place_info">
+                    <h3 class="place_logo">
+                      С нами едут люди, которые без ума от Грузии
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="places">
+            <div class="wrapper_full">
+              <div class="places_place">
+                <div class="place_info">
+                  <h3 class="place_logo" id="yakor3">
+                    Вы обзательно захотите сюда вернуться!
+                  </h3>
+                </div>
+                <div class="place-pic">
+                  <img src="img/place2.jpg" alt="" class="place-thumb2" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trainer">
+            <div class="wrapper_full">
+              <div class="trainers_trainer">
+                <div class="trainer_info">
+                  <h3 class="trainer_inf1">
+                    Наш гид Кирилл Никитин - довольно известный гид Грузии
+                  </h3>
+                  <h3 class="trainer_inf2">
+                    Кирилл в тур-агенствах с 2009 года провел более 100 туров
+                  </h3>
+                </div>
+                <div class="trainer-pic">
+                  <img src="img/trainer.jpg" alt="" class="traineer" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hotel">
+            <div class="stylebegin" id="yakor1">Предлагаем на выбор 3 класса номеров</div>
+            <div class="wrapper_full">
+              <div class="hotels_hotel">
+                <div class="hotel-pic">
+                  <img src="img/hotel1.png" alt="" class="hoteeel" />
+                </div>
+                <div class="hotel_info">
+                  <h3 class="hotel_inf1">Президентский</h3>
+                  <h3 class="hotel_inf2">
+                    <ul class="stylegrid">
+                      <li>- Максимальный комфорт</li>
+                      <li>- 3 комнаты</li>
+                      <li>- Множество доп услуг бесплатно</li>
+                    </ul>
+                  </h3>
+                  <h3 class="hotel_inf3">100 000 руб</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hotel">
+            <div class="wrapper_full">
+              <div class="hotels_hotel">
+                <div class="hotel_info">
+                  <h3 class="hotel_inf1">Люкс</h3>
+                  <h3 class="hotel_inf2">
+                    <ul class="stylegrid">
+                      <li>- 2 комнаты</li>
+                      <li>- Вполне комфортный номер</li>
+                    </ul>
+                  </h3>
+                  <h3 class="hotel_inf3">80 000 руб</h3>
+                </div>
+                <div class="hotel-pic">
+                  <img src="img/hotel2.jpg" alt="" class="hoteeel" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hotel">
+            <div class="wrapper_full">
+              <div class="hotels_hotel">
+                <div class="hotel-pic">
+                  <img src="img/hotel3.png" alt="" class="hoteeel" />
+                </div>
+                <div class="hotel_info">
+                  <h3 class="hotel_inf1">Комфорт</h3>
+                  <h3 class="hotel_inf2">
+                    <ul class="stylegrid">
+                      <li>- 1 комната</li>
+                      <li>- Комфортно для проживания</li>
+                    </ul>
+                  </h3>
+                  <h3 class="hotel_inf3">50 000 руб</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trainer">
+            <div class="wrapper_full">
+              <div class="trainers_trainer">
+                <div class="trainer_info">
+                  <h3 class="cont_inf1" id="yakor2">Контакты</h3>
+                  <ul class="styleending">
+                    <li class="end">Телефон: 8 (952) 574-61-20</li>
+                    <li class="end">Email: asolovyevv@gmail.com</li>
+                    <li class="end">Соц. сети:</li>
+                    <li class="end">- VK: asolovyevv</li>
+                    <li class="end">- Instagram: asolovyevv</li>
+                  </ul>
+                </div>
+                <div class="trainer-pic">
+                  <img src="img/card.png" alt="" class="traineer" />
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<div class="form-popup" id="myForm">
+  <form action="#" class="form-container">
+    <h1>Заявка</h1>
+
+    <label for="name"><b>Имя</b></label>
+    <input type="text" placeholder="Ваше имя" name="name" required>
+  
+  <label for="email"><b>E-mail</b></label>
+    <input type="text" placeholder="Ваш e-mail" name="email" required>
+
+    <button type="submit" class="btn">Отправить</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+  </form>
+</div>
+    </main>
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
